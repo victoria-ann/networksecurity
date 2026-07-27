@@ -3,9 +3,9 @@ name: workflow
 on:
     push:
         branches:
-            -main
+            - main
         paths-ignore:
-            -README.md
+            - README.md
 
 jobs:
     integration:
